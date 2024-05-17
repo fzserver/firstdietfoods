@@ -1,5 +1,5 @@
+import 'package:firstdietfoods/pages/comingsoon/comingsoon.dart';
 import 'package:flutter/material.dart';
-
 import '../home/home.dart';
 
 class ConfigApp extends StatefulWidget {
@@ -13,12 +13,13 @@ class _ConfigAppState extends State<ConfigApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'First Diet Foods',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: ComingSoonPage(),
     );
   }
 }
