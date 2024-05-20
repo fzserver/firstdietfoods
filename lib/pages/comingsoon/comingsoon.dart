@@ -10,6 +10,7 @@ class ComingSoonPage extends StatefulWidget {
 }
 
 class _ComingSoonPageState extends State<ComingSoonPage> {
+  int _endTime = DateTime(2024, 05, 25).millisecondsSinceEpoch;
   @override
   void initState() {
     // TODO: implement initState
@@ -72,7 +73,7 @@ class _ComingSoonPageState extends State<ComingSoonPage> {
                 ),
                 SizedBox(height: 30.0),
                 CountdownTimer(
-                  endTime: DateTime(2024, 05, 20).millisecondsSinceEpoch,
+                  endTime: _endTime,
                   widgetBuilder: (_, CurrentRemainingTime? time) {
                     return Column(
                       mainAxisAlignment: MainAxisAlignment.center,

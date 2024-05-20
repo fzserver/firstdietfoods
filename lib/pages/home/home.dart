@@ -15,16 +15,9 @@ class _HomePageState extends State<HomePage> {
     final width = mq.size.width;
     return Scaffold(
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(
-              'First Diet Foods is Coming Soon',
-              style: TextStyle(fontSize: width * .05),
-            ),
-          ],
+        child: Text(
+          'First Diet Foods is Coming Soon',
+          style: TextStyle(fontSize: width * .05),
         ),
       ),
     );
