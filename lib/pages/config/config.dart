@@ -19,7 +19,7 @@ class _ConfigAppState extends State<ConfigApp> {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
         useMaterial3: true,
       ),
-      home: ComingSoonPage(),
+      home: HomePage(),
     );
   }
 }

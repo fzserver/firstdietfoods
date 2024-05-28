@@ -15,9 +15,12 @@ class _HomePageState extends State<HomePage> {
     final width = mq.size.width;
     return Scaffold(
       body: Center(
-        child: Text(
-          'First Diet Foods is Coming Soon',
-          style: TextStyle(fontSize: width * .05),
+        child: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('logo.png'),
+            ),
+          ),
         ),
       ),
     );
