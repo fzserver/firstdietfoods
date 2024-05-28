@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
         child: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage('logo.png'),
+              image: AssetImage('assets/logo.png'),
             ),
           ),
         ),

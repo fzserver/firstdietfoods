@@ -1,4 +1,3 @@
-import 'package:firstdietfoods/pages/comingsoon/comingsoon.dart';
 import 'package:flutter/material.dart';
 import '../home/home.dart';
 
