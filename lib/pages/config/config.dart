@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
+import '../daliaInfo/dalia_info.dart';
 import '../home/home.dart';
+import 'package:flutter/material.dart';
 
 class ConfigApp extends StatefulWidget {
   const ConfigApp({super.key});
@@ -18,7 +19,11 @@ class _ConfigAppState extends State<ConfigApp> {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => HomePage(),
+        '/dalia-info': (context) => DaliaInfoPage(),
+      },
     );
   }
 }

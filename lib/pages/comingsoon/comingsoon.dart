@@ -1,5 +1,5 @@
-import 'package:firstdietfoods/constants/constants.dart';
-import 'package:firstdietfoods/extension/capitalize.dart';
+import '../../constants/constants.dart';
+import '../../extension/capitalize.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_countdown_timer/index.dart';
 import 'package:google_fonts/google_fonts.dart';

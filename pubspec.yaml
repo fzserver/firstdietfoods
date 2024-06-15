@@ -12,6 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_countdown_timer: ^4.1.0
+  flutter_web_plugins:
+    sdk: flutter
   google_fonts: ^6.2.1
   http: ^1.2.1
   provider: ^6.1.2
@@ -26,4 +28,4 @@ flutter:
 
   assets:
     - assets/
-    - assets/assets/
+    # - assets/assets/
